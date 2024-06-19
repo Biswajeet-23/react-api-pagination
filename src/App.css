@@ -10,7 +10,7 @@ img{
   margin: 5px;
 }
 
-.load{
+.load-btn{
   background-color: white;
   border-color: black;
   color: black;
@@ -22,7 +22,13 @@ img{
   margin-bottom: 5px;
 }
 
-.load:hover{
-  background-color: black;
+.load-btn:hover{
+  background-color: #000;
   color: white;
+}
+
+.loader{
+  display: flex;
+  justify-content: center;
+  height: 50px;
 }
